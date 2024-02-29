@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+text.label {
+    text-anchor: middle;
+    font-size: 11px;
+    fill: #555;
+    font-family: sans-serif;
+}
+
+.axis text {
+    fill: #555;
+}
+
+.axis line,
+.axis path {
+    stroke: #555;
+}
+
+text.title {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #333;
+}
+
+circle {
+    opacity: 0.6;
+}
+
+circle.top-ranked {
+    fill: rgb(225, 183, 85);
+}
+
+circle.middle-ranked {
+    fill: rgb(74, 123, 167);
+}
+
+circle.bottom-ranked {
+    fill: rgb(144, 144, 144);
+}
+
+
+
+
